@@ -1,0 +1,31 @@
+@startuml
+
+start
+
+:resultCount = 0
+i = 0;
+while (i < array.count()) is (Да)
+    if (array[i].size() <= 3) then (Да)
+        :resultCount++;
+    else (Нет)
+    endif
+    :i++;
+endwhile (Нет)
+:resultArray = new Array(resultCount);
+if (resultCount > 0) then (Да)
+    :i=0
+    j=0;
+    while (i < array.count()) is (Да)
+        if (array[i].size() <= 3) then (Да)
+            :resultArray[j] = array[i]
+            :j++;
+        else (Нет)
+        endif
+        :i++;
+    endwhile (Нет)
+else (Нет)
+endif
+    :return resultArray;
+stop
+
+@enduml
