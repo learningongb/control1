@@ -15,4 +15,4 @@
 9. Повторять шаги 7 - 8 до конца массива
 
 # Блок-схема
-![PlantUML model](https://raw.githubusercontent.com/learningongb/control1/uml/diagram.puml)
+![PlantUML model](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/learningongb/control1/uml/diagram.puml)
